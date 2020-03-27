@@ -31,6 +31,20 @@ If functionality changes, your tests will need to be updated. You'll be moving s
 
 ### Setting up unit tests
 
+```swift
+import XCTest
+// Xcode Test
+@testable import Calculator
+
+// elevated access to our framework.
+// methods without any access modifiers are internal...
+// we can now access internal memmbers inside of another module that isn't private.
+
+// setup and tearDown are necessary
+
+// testFile per source file.
+```
+
 ### Writing testable code
 
 ### Async testing
@@ -40,3 +54,5 @@ If functionality changes, your tests will need to be updated. You'll be moving s
 ### Code coverage and performance tests
 
 ### UI testing
+
+### Testing view controllers
