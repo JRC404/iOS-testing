@@ -96,8 +96,8 @@
 		16637A24242EB10D001E0D87 /* Unit-testingTests */ = {
 			isa = PBXGroup;
 			children = (
-				16637A27242EB10D001E0D87 /* Info.plist */,
 				16637A32242EB23F001E0D87 /* CalculatorTest.swift */,
+				16637A27242EB10D001E0D87 /* Info.plist */,
 			);
 			path = "Unit-testingTests";
 			sourceTree = "<group>";
